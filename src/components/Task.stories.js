@@ -3,11 +3,12 @@ import { action } from '@storybook/addon-actions';
 
 import Task from './Task';
 
+//This default export tells Storybook about the component we are documenting.
 export default {
   component: Task,
   title: 'Task',
   // Our exports that end in "Data" are not stories.
-  excludeStories: /.*Data$/,
+  excludeStories: /.*Data$/,    // In this file exclude taskData and actionsData
 };
 
 export const taskData = {
@@ -17,11 +18,14 @@ export const taskData = {
   updatedAt: new Date(2018, 0, 1, 9, 0),
 };
 
+//Actions help you verify interactions when building UI components in isolation
 export const actionsData = {
   onPinTask: action('onPinTask'),
   onArchiveTask: action('onArchiveTask'),
 };
 
+//There are 3 stories (Default, Pinned, Archived) below for Task Component
+//Story is nothing but a possible state for a component
 export const Default = () => {
   return <Task task={{ ...taskData }} {...actionsData} />;
 };
