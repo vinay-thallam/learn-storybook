@@ -3,6 +3,8 @@
 
 Command use to add Story book is "npx -p @storybook/cli sb init"
 
+Snapshot testing refers to the practice of recording the “known good” output of a component for a given input and then flagging the component whenever the output changes in future.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
