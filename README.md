@@ -5,6 +5,8 @@ Command use to add Story book is "npx -p @storybook/cli sb init"
 
 Snapshot testing refers to the practice of recording the “known good” output of a component for a given input and then flagging the component whenever the output changes in future.
 
+As it is evident at this commit, the Default story of InboxScreen is failing, because the TaskList has no Redux store to connect to. Though we write stories for PureInboxScreen component, its pure ness has been polluted by container-ness of TaskList component. Let's fix this story by mocking the redux store provider using decorator in next commit. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
