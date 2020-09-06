@@ -1,5 +1,401 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Design System|ProductMappings Default 1`] = `
+<div>
+  <div
+    className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <table
+      aria-label="simple table"
+      className="MuiTable-root"
+      role={null}
+    >
+      <thead
+        className="MuiTableHead-root"
+        role={null}
+      >
+        <tr
+          className="MuiTableRow-root MuiTableRow-head"
+          role={null}
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root makeStyles-root-1 MuiTableCell-head"
+            scope="col"
+          >
+            TOP SELLERS
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root makeStyles-root-1 MuiTableCell-head"
+            scope="col"
+          >
+            ONE-TIME
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root makeStyles-root-1 MuiTableCell-head"
+            scope="col"
+          >
+            RECURRING
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="MuiTableBody-root"
+        role={null}
+      >
+        <tr
+          className="MuiTableRow-root"
+          role={null}
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+            role="cell"
+            scope="row"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <span>
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      fillRule="evenodd"
+                    >
+                      <path
+                        d="M0 0L24 0 24 24 0 24z"
+                        transform="translate(-5 -5)"
+                      />
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        fill="#0F2E66"
+                        transform="translate(-5 -5)"
+                      />
+                    </g>
+                  </svg>
+                </span>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
+                >
+                  Bundle Discount - 5
+                </p>
+                <p
+                  className="MuiTypography-root MuiTypography-body1"
+                >
+                  A placeholder to add some details to this offering
+                </p>
+              </div>
+            </div>
+          </th>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            -
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            5
+          </td>
+        </tr>
+        <tr
+          className="MuiTableRow-root"
+          role={null}
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+            role="cell"
+            scope="row"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <span>
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      fillRule="evenodd"
+                    >
+                      <path
+                        d="M0 0L24 0 24 24 0 24z"
+                        transform="translate(-5 -5)"
+                      />
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        fill="#0F2E66"
+                        transform="translate(-5 -5)"
+                      />
+                    </g>
+                  </svg>
+                </span>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
+                >
+                  Premium
+                </p>
+                <p
+                  className="MuiTypography-root MuiTypography-body1"
+                >
+                  A placeholder to add some details to this offering
+                </p>
+              </div>
+            </div>
+          </th>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            -
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            35
+          </td>
+        </tr>
+        <tr
+          className="MuiTableRow-root"
+          role={null}
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+            role="cell"
+            scope="row"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <span>
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      fillRule="evenodd"
+                    >
+                      <path
+                        d="M0 0L24 0 24 24 0 24z"
+                        transform="translate(-5 -5)"
+                      />
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        fill="#0F2E66"
+                        transform="translate(-5 -5)"
+                      />
+                    </g>
+                  </svg>
+                </span>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
+                >
+                  iPhone 11 White
+                </p>
+                <p
+                  className="MuiTypography-root MuiTypography-body1"
+                >
+                  A placeholder to add some details to this offering
+                </p>
+              </div>
+            </div>
+          </th>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            450
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            -
+          </td>
+        </tr>
+        <tr
+          className="MuiTableRow-root"
+          role={null}
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+            role="cell"
+            scope="row"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <span>
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      fillRule="evenodd"
+                    >
+                      <path
+                        d="M0 0L24 0 24 24 0 24z"
+                        transform="translate(-5 -5)"
+                      />
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        fill="#0F2E66"
+                        transform="translate(-5 -5)"
+                      />
+                    </g>
+                  </svg>
+                </span>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
+                >
+                  aPhone Red
+                </p>
+                <p
+                  className="MuiTypography-root MuiTypography-body1"
+                >
+                  A placeholder to add some details to this offering
+                </p>
+              </div>
+            </div>
+          </th>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            10
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            -
+          </td>
+        </tr>
+        <tr
+          className="MuiTableRow-root"
+          role={null}
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+            role="cell"
+            scope="row"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <span>
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      fillRule="evenodd"
+                    >
+                      <path
+                        d="M0 0L24 0 24 24 0 24z"
+                        transform="translate(-5 -5)"
+                      />
+                      <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        fill="#0F2E66"
+                        transform="translate(-5 -5)"
+                      />
+                    </g>
+                  </svg>
+                </span>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
+                >
+                  iPhone 11 Pro Max
+                </p>
+                <p
+                  className="MuiTypography-root MuiTypography-body1"
+                >
+                  A placeholder to add some details to this offering
+                </p>
+              </div>
+            </div>
+          </th>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            788
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body"
+          >
+            -
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
 exports[`Storyshots InboxScreen Default 1`] = `
 <div
   className="page lists-show"
@@ -41,6 +437,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -81,6 +482,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -121,6 +527,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -161,6 +572,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -201,6 +617,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -241,6 +662,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -310,6 +736,11 @@ exports[`Storyshots Task Archived 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -345,8 +776,61 @@ exports[`Storyshots Task Default 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        className="icon-star"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task Long Title 1`] = `
+<div
+  className="list-item TASK_INBOX"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
+      type="text"
+      value="This task's name is absurdly large. In fact, I think if I keep going I might end up with content overflow. What will happen? The star that represents a pinned task could have text overlapping. The text could cut-off abruptly when it reaches the star. I hope not!"
     />
   </div>
   <div
@@ -388,6 +872,11 @@ exports[`Storyshots Task Pinned 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -441,6 +930,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -481,6 +975,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -521,6 +1020,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -561,6 +1065,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -601,6 +1110,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -641,6 +1155,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -875,6 +1394,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6 (pinned)"
         />
@@ -915,6 +1439,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -955,6 +1484,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -995,6 +1529,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -1035,6 +1574,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -1075,6 +1619,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
