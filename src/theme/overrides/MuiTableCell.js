@@ -1,5 +1,5 @@
-import color from '../colors';
-import palette from '../palette';
+import color from '../colors'
+import palette from '../palette'
 
 export default {
   root: {
@@ -29,4 +29,4 @@ export default {
       textAlign: 'right',
     },
   },
-};
+}

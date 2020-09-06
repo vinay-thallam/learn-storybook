@@ -23,8 +23,8 @@ const getTableData = () => {
 
       const productDetail = {
         productName: name,
-        oneTimePrice: '-',
-        recurringPrice: '-',
+        oneTimePrice: '',
+        recurringPrice: '',
       }
 
       productOfferingPrice.forEach(({ priceType, price: { value } }) => {

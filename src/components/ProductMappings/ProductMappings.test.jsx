@@ -2,13 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { createMount } from '@material-ui/core/test-utils'
 import ProductMappings from './ProductMappings'
-import MockedOfferingDetail from './OfferingDetail'
 import TableHead from '@material-ui/core/TableHead'
 import TableCell from '@material-ui/core/TableCell'
 import TableBody from '@material-ui/core/TableBody'
 import TableRow from '@material-ui/core/TableRow'
 
-jest.mock('./OfferingDetail', () => {
+jest.mock('../OfferingDetail/OfferingDetail', () => {
   return {
     __esModule: true,
     default: () => <>OfferingDetail View</>,

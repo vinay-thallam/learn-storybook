@@ -1,56 +1,40 @@
 import { withStyles } from '@material-ui/core/styles'
 import Table from '@material-ui/core/Table'
+import TableRow from '@material-ui/core/TableRow'
 import TableCell from '@material-ui/core/TableCell'
 
-export const StyledTable = withStyles({
+export const StyledTable = withStyles(theme => ({
   root: {
     tableLayout: 'fixed',
     borderCollapse: 'separate',
-    borderSpacing: '0 5px',
-    padding: '10px',
+    borderSpacing: `0 ${theme.spacing(0.75)}px`,
+    padding: theme.spacing(1),
   },
-})(Table)
+}))(Table)
 
-export const ColumnHeader = withStyles(theme => ({
+export const StyledTableRow = withStyles(theme => ({
   root: {
-    fontWeight: 'bold',
-    border: 'none',
-    padding: '5px',
-    paddingLeft: '16px',
+    boxShadow: `0 1px 3px 0 ${theme.palette.surface.background.dark}, 0 0 0 1px ${theme.palette.surface.background.dark}`,
+  },
+  head: {
+    boxShadow: 'none',
+  },
+}))(TableRow)
+
+export const StyledTableCell = withStyles(theme => ({
+  head: {
+    ...theme.typography.body2,
+    fontWeight: theme.typography.fontWeightBold,
+    lineHeight: 1.67,
+    paddingTop: theme.spacing(1),
+    paddingBottom: theme.spacing(1),
+    boxShadow: 'none',
+  },
+  body: {
+    ...theme.typography.body2,
+    textAlign: 'center',
+    '&:nth-of-type(even)': {
+      backgroundColor: theme.palette.surface.background.light,
+    },
   },
 }))(TableCell)
-
-export const PriceColumnHeader = withStyles({
-  root: {
-    width: '132px',
-    fontWeight: 'bold',
-    border: 'none',
-    padding: '5px',
-  },
-})(TableCell)
-
-export const FirstCellInRow = withStyles({
-  root: {
-    borderTop: '1px solid rgba(224, 224, 224, 1)',
-    borderBottom: '1px solid rgba(224, 224, 224, 1)',
-    borderLeft: '1px solid rgba(224, 224, 224, 1)',
-    height: '68px',
-  },
-})(TableCell)
-
-export const MiddleCellInRow = withStyles({
-  root: {
-    borderTop: '1px solid rgba(224, 224, 224, 1)',
-    borderBottom: '1px solid rgba(224, 224, 224, 1)',
-    height: '68px',
-  },
-})(TableCell)
-
-export const LastCellInRow = withStyles({
-  root: {
-    borderTop: '1px solid rgba(224, 224, 224, 1)',
-    borderBottom: '1px solid rgba(224, 224, 224, 1)',
-    borderRight: '1px solid rgba(224, 224, 224, 1)',
-    height: '68px',
-  },
-})(TableCell)

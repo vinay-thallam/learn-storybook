@@ -1,1 +1,1 @@
-export { default as ProductMappings } from './ProductMappings';
+export { default as ProductMappings } from './ProductMappings'

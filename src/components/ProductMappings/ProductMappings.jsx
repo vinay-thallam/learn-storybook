@@ -3,60 +3,77 @@ import PropTypes from 'prop-types'
 import TableBody from '@material-ui/core/TableBody'
 import TableContainer from '@material-ui/core/TableContainer'
 import TableHead from '@material-ui/core/TableHead'
-import TableRow from '@material-ui/core/TableRow'
 import Paper from '@material-ui/core/Paper'
-import OfferingDetail from './OfferingDetail'
+import OfferingDetail from '../OfferingDetail/OfferingDetail'
+
+import { makeStyles } from '@material-ui/core/styles'
 
 import {
   StyledTable,
-  PriceColumnHeader,
-  ColumnHeader,
-  FirstCellInRow,
-  MiddleCellInRow,
-  LastCellInRow,
+  StyledTableRow,
+  StyledTableCell,
 } from './styled-components'
 
 const getTableRow = (row, columns) => {
-  return (
-    <TableRow key={row.productName}>
-      {columns.map(({ accessor }, index, arr) => {
-        const TableCell =
-          index === 0
-            ? FirstCellInRow
-            : index === arr.length - 1
-            ? LastCellInRow
-            : MiddleCellInRow
+  const classes = makeStyles(theme => ({
+    offeringDetailCell: {
+      paddingLeft: theme.spacing(3),
+    },
+  }))()
 
+  return (
+    <StyledTableRow key={row.productName}>
+      {columns.map(({ accessor }, index, arr) => {
         return accessor === 'productName' ? (
-          <TableCell key={row[accessor]} component="th" scope="row">
+          <StyledTableCell
+            key={row[accessor]}
+            scope="row"
+            className={classes.offeringDetailCell}
+          >
             <OfferingDetail productName={row[accessor]} />
-          </TableCell>
+          </StyledTableCell>
         ) : (
-          <TableCell key={row[accessor]}>{row[accessor]}</TableCell>
+          <StyledTableCell key={row[accessor]}>{row[accessor]}</StyledTableCell>
         )
       })}
-    </TableRow>
+    </StyledTableRow>
   )
 }
 
 const getTableColHeader = header => {
-  return header === 'ONE-TIME' || header === 'RECURRING' ? (
-    <PriceColumnHeader key={header}>{header}</PriceColumnHeader>
-  ) : (
-    <ColumnHeader key={header}>{header}</ColumnHeader>
+  const classes = makeStyles(theme => ({
+    productNameHeader: {
+      paddingLeft: theme.spacing(3),
+    },
+    priceHeader: {
+      width: theme.spacing(12),
+    },
+  }))()
+
+  let className = {}
+  if (header === 'ONE-TIME' || header === 'RECURRING') {
+    className = classes.priceHeader
+  } else if (header === 'TOP SELLERS') {
+    className = classes.productNameHeader
+  }
+
+  return (
+    <StyledTableCell className={className} key={header}>
+      {header}
+    </StyledTableCell>
   )
 }
 
 const ProductMappings = ({ columns, rowData }) => {
   return (
     <TableContainer component={Paper}>
-      <StyledTable aria-label="simple table">
+      <StyledTable>
         <TableHead>
-          <TableRow>
+          <StyledTableRow>
             {columns.map(({ header }, index) => {
               return getTableColHeader(header, index)
             })}
-          </TableRow>
+          </StyledTableRow>
         </TableHead>
         <TableBody>
           {rowData.map(row => {
