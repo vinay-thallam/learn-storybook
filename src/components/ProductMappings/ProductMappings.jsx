@@ -1,18 +1,51 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import TableBody from '@material-ui/core/TableBody'
 import TableContainer from '@material-ui/core/TableContainer'
+import Table from '@material-ui/core/Table'
 import TableHead from '@material-ui/core/TableHead'
+import TableBody from '@material-ui/core/TableBody'
+import TableRow from '@material-ui/core/TableRow'
+import TableCell from '@material-ui/core/TableCell'
 import Paper from '@material-ui/core/Paper'
+import { withStyles, makeStyles } from '@material-ui/core/styles'
 import OfferingDetail from '../OfferingDetail/OfferingDetail'
 
-import { makeStyles } from '@material-ui/core/styles'
+const StyledTable = withStyles(theme => ({
+  root: {
+    tableLayout: 'fixed',
+    borderCollapse: 'separate',
+    borderSpacing: `0 ${theme.spacing(0.75)}px`,
+    padding: theme.spacing(1),
+  },
+}))(Table)
 
-import {
-  StyledTable,
-  StyledTableRow,
-  StyledTableCell,
-} from './styled-components'
+const StyledTableRow = withStyles(theme => ({
+  root: {
+    boxShadow:
+      '0 1px 3px 0 rgba(63, 63, 68, 0.15), 0 0 0 1px rgba(63, 63, 68, 0.05)',
+  },
+  head: {
+    boxShadow: 'none',
+  },
+}))(TableRow)
+
+const StyledTableCell = withStyles(theme => ({
+  head: {
+    ...theme.typography.body2,
+    fontWeight: theme.typography.fontWeightBold,
+    lineHeight: 1.67,
+    paddingTop: theme.spacing(1),
+    paddingBottom: theme.spacing(1),
+    boxShadow: 'none',
+  },
+  body: {
+    ...theme.typography.body2,
+    textAlign: 'center',
+    '&:nth-of-type(even)': {
+      backgroundColor: '#fafbfc',
+    },
+  },
+}))(TableCell)
 
 const getTableRow = (row, columns) => {
   const classes = makeStyles(theme => ({

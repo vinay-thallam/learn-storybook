@@ -6,8 +6,7 @@ exports[`Storyshots Design System|ProductMappings Default 1`] = `
     className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
   >
     <table
-      aria-label="simple table"
-      className="MuiTable-root"
+      className="MuiTable-root WithStyles(ForwardRef(Table))-root-12"
       role={null}
     >
       <thead
@@ -15,26 +14,26 @@ exports[`Storyshots Design System|ProductMappings Default 1`] = `
         role={null}
       >
         <tr
-          className="MuiTableRow-root MuiTableRow-head"
+          className="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-13 MuiTableRow-head WithStyles(ForwardRef(TableRow))-head-14"
           role={null}
         >
           <th
             aria-sort={null}
-            className="MuiTableCell-root makeStyles-root-1 MuiTableCell-head"
+            className="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-15 makeStyles-productNameHeader-1"
             scope="col"
           >
             TOP SELLERS
           </th>
           <th
             aria-sort={null}
-            className="MuiTableCell-root makeStyles-root-1 MuiTableCell-head"
+            className="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-15 makeStyles-priceHeader-4"
             scope="col"
           >
             ONE-TIME
           </th>
           <th
             aria-sort={null}
-            className="MuiTableCell-root makeStyles-root-1 MuiTableCell-head"
+            className="MuiTableCell-root MuiTableCell-head WithStyles(ForwardRef(TableCell))-head-15 makeStyles-priceHeader-6"
             scope="col"
           >
             RECURRING
@@ -46,25 +45,52 @@ exports[`Storyshots Design System|ProductMappings Default 1`] = `
         role={null}
       >
         <tr
-          className="MuiTableRow-root"
+          className="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-13"
           role={null}
         >
-          <th
+          <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
-            role="cell"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16 makeStyles-offeringDetailCell-7"
             scope="row"
           >
             <div
-              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+              className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
             >
               <div
                 className="MuiGrid-root MuiGrid-item"
               >
-                <span>
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root makeStyles-offeringIcon-19"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                  >
+                    <path
+                      d="M0 0L24 0 24 24 0 24z"
+                      transform="translate(-5 -5)"
+                    />
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      fill="#0F2E66"
+                      transform="translate(-5 -5)"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-text-17 MuiTypography-body1"
+                >
+                  Bundle Discount - 5
                   <svg
                     aria-hidden={true}
-                    className="MuiSvgIcon-root"
+                    className="MuiSvgIcon-root makeStyles-infoIcon-20"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
@@ -83,57 +109,75 @@ exports[`Storyshots Design System|ProductMappings Default 1`] = `
                       />
                     </g>
                   </svg>
-                </span>
-              </div>
-              <div
-                className="MuiGrid-root MuiGrid-item"
-              >
-                <p
-                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
-                >
-                  Bundle Discount - 5
                 </p>
                 <p
-                  className="MuiTypography-root MuiTypography-body1"
+                  className="MuiTypography-root makeStyles-subText-18 MuiTypography-body1"
                 >
                   A placeholder to add some details to this offering
                 </p>
               </div>
             </div>
-          </th>
-          <td
-            aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
-          >
-            -
           </td>
           <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
+          >
+            
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
           >
             5
           </td>
         </tr>
         <tr
-          className="MuiTableRow-root"
+          className="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-13"
           role={null}
         >
-          <th
+          <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
-            role="cell"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16 makeStyles-offeringDetailCell-8"
             scope="row"
           >
             <div
-              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+              className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
             >
               <div
                 className="MuiGrid-root MuiGrid-item"
               >
-                <span>
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root makeStyles-offeringIcon-19"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                  >
+                    <path
+                      d="M0 0L24 0 24 24 0 24z"
+                      transform="translate(-5 -5)"
+                    />
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      fill="#0F2E66"
+                      transform="translate(-5 -5)"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-text-17 MuiTypography-body1"
+                >
+                  Premium
                   <svg
                     aria-hidden={true}
-                    className="MuiSvgIcon-root"
+                    className="MuiSvgIcon-root makeStyles-infoIcon-20"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
@@ -152,57 +196,75 @@ exports[`Storyshots Design System|ProductMappings Default 1`] = `
                       />
                     </g>
                   </svg>
-                </span>
-              </div>
-              <div
-                className="MuiGrid-root MuiGrid-item"
-              >
-                <p
-                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
-                >
-                  Premium
                 </p>
                 <p
-                  className="MuiTypography-root MuiTypography-body1"
+                  className="MuiTypography-root makeStyles-subText-18 MuiTypography-body1"
                 >
                   A placeholder to add some details to this offering
                 </p>
               </div>
             </div>
-          </th>
-          <td
-            aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
-          >
-            -
           </td>
           <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
+          >
+            
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
           >
             35
           </td>
         </tr>
         <tr
-          className="MuiTableRow-root"
+          className="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-13"
           role={null}
         >
-          <th
+          <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
-            role="cell"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16 makeStyles-offeringDetailCell-9"
             scope="row"
           >
             <div
-              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+              className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
             >
               <div
                 className="MuiGrid-root MuiGrid-item"
               >
-                <span>
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root makeStyles-offeringIcon-19"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                  >
+                    <path
+                      d="M0 0L24 0 24 24 0 24z"
+                      transform="translate(-5 -5)"
+                    />
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      fill="#0F2E66"
+                      transform="translate(-5 -5)"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-text-17 MuiTypography-body1"
+                >
+                  iPhone 11 White
                   <svg
                     aria-hidden={true}
-                    className="MuiSvgIcon-root"
+                    className="MuiSvgIcon-root makeStyles-infoIcon-20"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
@@ -221,57 +283,75 @@ exports[`Storyshots Design System|ProductMappings Default 1`] = `
                       />
                     </g>
                   </svg>
-                </span>
-              </div>
-              <div
-                className="MuiGrid-root MuiGrid-item"
-              >
-                <p
-                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
-                >
-                  iPhone 11 White
                 </p>
                 <p
-                  className="MuiTypography-root MuiTypography-body1"
+                  className="MuiTypography-root makeStyles-subText-18 MuiTypography-body1"
                 >
                   A placeholder to add some details to this offering
                 </p>
               </div>
             </div>
-          </th>
+          </td>
           <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
           >
             450
           </td>
           <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
           >
-            -
+            
           </td>
         </tr>
         <tr
-          className="MuiTableRow-root"
+          className="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-13"
           role={null}
         >
-          <th
+          <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
-            role="cell"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16 makeStyles-offeringDetailCell-10"
             scope="row"
           >
             <div
-              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+              className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
             >
               <div
                 className="MuiGrid-root MuiGrid-item"
               >
-                <span>
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root makeStyles-offeringIcon-19"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                  >
+                    <path
+                      d="M0 0L24 0 24 24 0 24z"
+                      transform="translate(-5 -5)"
+                    />
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      fill="#0F2E66"
+                      transform="translate(-5 -5)"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-text-17 MuiTypography-body1"
+                >
+                  aPhone Red
                   <svg
                     aria-hidden={true}
-                    className="MuiSvgIcon-root"
+                    className="MuiSvgIcon-root makeStyles-infoIcon-20"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
@@ -290,57 +370,75 @@ exports[`Storyshots Design System|ProductMappings Default 1`] = `
                       />
                     </g>
                   </svg>
-                </span>
-              </div>
-              <div
-                className="MuiGrid-root MuiGrid-item"
-              >
-                <p
-                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
-                >
-                  aPhone Red
                 </p>
                 <p
-                  className="MuiTypography-root MuiTypography-body1"
+                  className="MuiTypography-root makeStyles-subText-18 MuiTypography-body1"
                 >
                   A placeholder to add some details to this offering
                 </p>
               </div>
             </div>
-          </th>
+          </td>
           <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
           >
             10
           </td>
           <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
           >
-            -
+            
           </td>
         </tr>
         <tr
-          className="MuiTableRow-root"
+          className="MuiTableRow-root WithStyles(ForwardRef(TableRow))-root-13"
           role={null}
         >
-          <th
+          <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
-            role="cell"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16 makeStyles-offeringDetailCell-11"
             scope="row"
           >
             <div
-              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center"
+              className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
             >
               <div
                 className="MuiGrid-root MuiGrid-item"
               >
-                <span>
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root makeStyles-offeringIcon-19"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                  >
+                    <path
+                      d="M0 0L24 0 24 24 0 24z"
+                      transform="translate(-5 -5)"
+                    />
+                    <path
+                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                      fill="#0F2E66"
+                      transform="translate(-5 -5)"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-text-17 MuiTypography-body1"
+                >
+                  iPhone 11 Pro Max
                   <svg
                     aria-hidden={true}
-                    className="MuiSvgIcon-root"
+                    className="MuiSvgIcon-root makeStyles-infoIcon-20"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
@@ -359,35 +457,26 @@ exports[`Storyshots Design System|ProductMappings Default 1`] = `
                       />
                     </g>
                   </svg>
-                </span>
-              </div>
-              <div
-                className="MuiGrid-root MuiGrid-item"
-              >
-                <p
-                  className="MuiTypography-root makeStyles-productName-2 MuiTypography-body1"
-                >
-                  iPhone 11 Pro Max
                 </p>
                 <p
-                  className="MuiTypography-root MuiTypography-body1"
+                  className="MuiTypography-root makeStyles-subText-18 MuiTypography-body1"
                 >
                   A placeholder to add some details to this offering
                 </p>
               </div>
             </div>
-          </th>
+          </td>
           <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
           >
             788
           </td>
           <td
             aria-sort={null}
-            className="MuiTableCell-root MuiTableCell-body"
+            className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-16"
           >
-            -
+            
           </td>
         </tr>
       </tbody>
